@@ -1,0 +1,6 @@
+plugin:
+    name: 'workteam.core::lang.plugin.name'
+    description: 'workteam.core::lang.plugin.description'
+    author: Workteam
+    icon: oc-icon-adjust
+    homepage: ''
