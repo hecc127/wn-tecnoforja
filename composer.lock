@@ -6521,6 +6521,79 @@
             "time": "2025-06-25T21:31:18+00:00"
         },
         {
+            "name": "winter/wn-blog-plugin",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/wintercms/wn-blog-plugin.git",
+                "reference": "2c9b7576918b6f36da078c83106bb5658facfc67"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/wintercms/wn-blog-plugin/zipball/2c9b7576918b6f36da078c83106bb5658facfc67",
+                "reference": "2c9b7576918b6f36da078c83106bb5658facfc67",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "~1.0",
+                "php": ">=7.0",
+                "winter/wn-backend-module": "^1.2.8|dev-develop"
+            },
+            "replace": {
+                "rainlab/blog-plugin": "~1.3"
+            },
+            "default-branch": true,
+            "type": "winter-plugin",
+            "extra": {
+                "installer-name": "blog"
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Alexey Bobkov",
+                    "email": "aleksey.bobkov@gmail.com",
+                    "role": "Original Author"
+                },
+                {
+                    "name": "Samuel Georges",
+                    "email": "daftspunky@gmail.com",
+                    "role": "Original Author"
+                },
+                {
+                    "name": "Winter CMS Maintainers",
+                    "homepage": "https://wintercms.com",
+                    "role": "Maintainer"
+                }
+            ],
+            "description": "Blog plugin for Winter CMS",
+            "homepage": "https://github.com/wintercms/wn-blog-plugin",
+            "keywords": [
+                "blog",
+                "plugin",
+                "winter",
+                "winter cms"
+            ],
+            "support": {
+                "discord": "https://discord.gg/D5MFSPH6Ux",
+                "issues": "https://github.com/wintercms/wn-blog-plugin/issues",
+                "source": "https://github.com/wintercms/wn-blog-plugin"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/wintercms",
+                    "type": "github"
+                },
+                {
+                    "url": "https://opencollective.com/wintercms",
+                    "type": "open_collective"
+                }
+            ],
+            "time": "2025-07-25T15:05:58+00:00"
+        },
+        {
             "name": "winter/wn-builder-plugin",
             "version": "v2.1.1",
             "source": {
@@ -6743,12 +6816,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/wintercms/wn-tailwindui-plugin.git",
-                "reference": "42dabcdf7e0daaa2b0dddd5fd5117412e8577e1a"
+                "reference": "d7d5ef49da03b7f3a554af8f45cee8119528441e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wintercms/wn-tailwindui-plugin/zipball/42dabcdf7e0daaa2b0dddd5fd5117412e8577e1a",
-                "reference": "42dabcdf7e0daaa2b0dddd5fd5117412e8577e1a",
+                "url": "https://api.github.com/repos/wintercms/wn-tailwindui-plugin/zipball/d7d5ef49da03b7f3a554af8f45cee8119528441e",
+                "reference": "d7d5ef49da03b7f3a554af8f45cee8119528441e",
                 "shasum": ""
             },
             "require": {
@@ -6802,6 +6875,29 @@
                 }
             ],
             "time": "2025-07-24T15:50:25+00:00"
+        },
+        {
+            "name": "workteam/wn-shoppers-plugin",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/hecc127/wn-shoppers-plugin.git",
+                "reference": "0ee3be0d90479b99cfb5df9b9aa7c8846120d968"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/hecc127/wn-shoppers-plugin/zipball/0ee3be0d90479b99cfb5df9b9aa7c8846120d968",
+                "reference": "0ee3be0d90479b99cfb5df9b9aa7c8846120d968",
+                "shasum": ""
+            },
+            "default-branch": true,
+            "type": "winter-plugin",
+            "description": "Plugin manage products for shops.",
+            "support": {
+                "source": "https://github.com/hecc127/wn-shoppers-plugin/tree/main",
+                "issues": "https://github.com/hecc127/wn-shoppers-plugin/issues"
+            },
+            "time": "2025-07-26T04:04:42+00:00"
         },
         {
             "name": "workteam/wn-webweaver-plugin",
@@ -8910,7 +9006,9 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
+        "winter/wn-blog-plugin": 20,
         "winter/wn-tailwindui-plugin": 20,
+        "workteam/wn-shoppers-plugin": 20,
         "workteam/wn-webweaver-plugin": 20
     },
     "prefer-stable": true,

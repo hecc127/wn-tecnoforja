@@ -6,11 +6,17 @@
         {
             "type": "vcs",
             "url": "git@github.com:hecc127/wn-webweaver-plugin.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@github.com:hecc127/wn-shoppers-plugin.git"
         }
     ],
     "require": {
         "workteam/wn-webweaver-plugin": "dev-main",
-        "winter/wn-tailwindui-plugin": "dev-main#42dabcdf7e0daaa2b0dddd5fd5117412e8577e1a",
-        "winter/wn-builder-plugin": "^2.0.6"
+        "workteam/wn-shoppers-plugin": "dev-main",
+        "winter/wn-tailwindui-plugin": "dev-main",
+        "winter/wn-builder-plugin": "^2.0.6",
+        "winter/wn-blog-plugin": "dev-main"
     }
 }
