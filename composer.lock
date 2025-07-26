@@ -6905,12 +6905,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/hecc127/wn-webweaver-plugin.git",
-                "reference": "0a8021e986875e324f7b1924c5e0301ceb819726"
+                "reference": "bea4e07c988004790802f60fb65fdf08f2e848f9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/hecc127/wn-webweaver-plugin/zipball/0a8021e986875e324f7b1924c5e0301ceb819726",
-                "reference": "0a8021e986875e324f7b1924c5e0301ceb819726",
+                "url": "https://api.github.com/repos/hecc127/wn-webweaver-plugin/zipball/bea4e07c988004790802f60fb65fdf08f2e848f9",
+                "reference": "bea4e07c988004790802f60fb65fdf08f2e848f9",
                 "shasum": ""
             },
             "default-branch": true,
@@ -6920,7 +6920,7 @@
                 "source": "https://github.com/hecc127/wn-webweaver-plugin/tree/main",
                 "issues": "https://github.com/hecc127/wn-webweaver-plugin/issues"
             },
-            "time": "2025-07-25T18:25:34+00:00"
+            "time": "2025-07-26T04:35:20+00:00"
         }
     ],
     "packages-dev": [
