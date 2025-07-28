@@ -35,6 +35,7 @@ class Plugin extends PluginBase
                         ];
 
                         $pages->additionals = [
+                            'datas' => request()->all(),
                             'posts' => Post::isPublished()->orderBy('published_at', 'DESC')->get(),
                             'products' => Product::where('active', true)->get(),
                             'pages' => Page::where('url', '<>', '/')->where('status', Page::STATUS_ACTIVE)->get(),
